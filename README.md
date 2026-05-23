@@ -19,16 +19,18 @@ I created multiple custom measures for both BEV and PHEV analysis, including:
 4. Dynamic tooltip context filtering.
 ## Interactive Tooltip Pages:
 I designed custom tooltip report pages that appear on mouse hover, including:
-✅ Geographic tooltip cards;
-✅ Manufacturer insights by region;
-✅ Vehicle registration evolution by model year;
-✅ Dynamic average range metrics;
-✅ Context-aware CAFV statistics.
+- ✅ Geographic tooltip cards;
+- ✅ Manufacturer insights by region;
+- ✅ Vehicle registration evolution by model year;
+- ✅ Dynamic average range metrics;
+- ✅ Context-aware CAFV statistics.
 This creates a much more interactive and exploratory user experience compared to standard Power BI visuals.
+
 ## Automated Daily Data Refresh
 The report uses a live public government dataset connected directly from:
 https://catalog.data.gov/dataset/electric-vehicle-population-data.
 Since the source is connected through a web data link, the dataset can be refreshed automatically whenever new vehicle registration data becomes available. This allows the dashboard to stay current without manual file replacement.
+
 ## Skills Practiced:
 - Power BI
 - DAX
